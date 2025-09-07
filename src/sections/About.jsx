@@ -3,7 +3,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import Globe from "react-globe.gl";
 import DownloadResumeButton from "../components/DownloadResumeButton";
-
+import { SocialButtonsGroup } from "../components/social-buttons";
 
 
 const About = () => {
@@ -115,7 +115,11 @@ const About = () => {
         <div className="grid-default-color grid-5">
             <div className="z-10 w-[50%]">
                 <p className="headText">Find me here and say Hi</p>
-                <a href=""></a>
+                <SocialButtonsGroup className="justify-center mt-20" linkedinUrl="https://www.linkedin.com/in/younghoon/"
+                githubUrl="https://github.com/Oldhoon"
+                instagramUrl="https://www.instagram.com/oldhoon0207/"
+                size="lg"
+                />
             </div>
             <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
                 <Socials/>

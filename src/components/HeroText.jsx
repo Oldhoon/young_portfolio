@@ -16,12 +16,12 @@ const HeroText = () => {
         transition={{delay:1}}>Hi I'm Young</motion.h1>
         <div className="flex flex-col items-start">
           <motion.p className="text-5xl font-medium text-neutral-300">
-            An aspiring Software Engineer <br /> dedicated to crafting
+            An aspiring Software Developer <br /> passionate about creating
           </motion.p>
           <motion.div>
             <FlipWords words={words} className="font-black text-white text-6xl" />
           </motion.div>
-          <motion.p className="text-4xl font-medium text-neutral-300">web solutions</motion.p>
+          <motion.p className="text-4xl font-medium text-neutral-300">software</motion.p>
         </div>
       </div>
     </div>
