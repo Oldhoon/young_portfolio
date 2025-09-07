@@ -32,7 +32,7 @@ export function Snowman(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 1.7, 0, 0]} scale={0.1}>
+        <group name="Sketchfab_model" rotation={[-Math.PI / 1.7, 0, 0]} scale={0.15}>
           <group name="365f4c91b47842d8b66a5eecbcbdb59dfbx" rotation={[Math.PI / 2, 0, 0]}>
             <group name="Object_2">
               <group name="RootNode">

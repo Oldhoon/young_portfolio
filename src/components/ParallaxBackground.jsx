@@ -14,19 +14,19 @@ const ParallaxBackground = () => {
             {/* background sky */}
             <div className='absolute inset-0 w-full h-screen -z-50'
             style={{
-                backgroundImage: "url('/assets/sky2.jpg')",
+                backgroundImage: "url('/assets/nightsky.png')",
                 backgroundPosition: 'bottom',
                 backgroundSize: 'cover',
             }}></div>
             {/* background mountains */}
-            <motion.div className='absolute inset-0 w-full h-screen -z-40'
+            <motion.div className='absolute inset-0 w-full h-screen -z-30'
             style={{
                 backgroundImage: "url('/assets/mountain-3.png')",
                 backgroundPosition: 'bottom',
                 backgroundSize: 'cover',
                 y : mountain3Y
             }}></motion.div>
-            <motion.div className='absolute inset-0 w-full h-screen -z-30'
+            <motion.div className='absolute inset-0 w-full h-screen -z-40'
             style={{
                 backgroundImage: "url('/assets/planets.png')",
                 backgroundPosition: 'bottom',
@@ -40,7 +40,7 @@ const ParallaxBackground = () => {
                 backgroundSize: 'cover',
                 y: mountain2Y
             }}></motion.div>
-            <motion.div className='absolute inset-0 w-full h-screen -z-10'
+            <motion.div className='absolute inset-0 w-full h-screen -z-10 '
             style={{
                 backgroundImage: "url('/assets/mountain-1.png')",
                 backgroundPosition: 'bottom',
