@@ -19,7 +19,7 @@ const About = () => {
             className="absolute scale-[0.9] -right-0.5 -top-0.5"
           />
           <div className="z-10">
-            <p className="headText">Hi, I'm Young Kim</p>
+            <p className="headtext">Hi, I'm Young Kim</p>
             <p className="subtext">
               {" "}
               With a background in biochemistry and a second degree in computer
@@ -99,7 +99,7 @@ const About = () => {
                 
             </div>
             <div className="relative z-10 w-[50%]">
-                <p className="headText">Time Zone</p>
+                <p className="headtext">Time Zone</p>
                 <p className="text-white subtext">I'm based in Vancouver, and open to remote work</p>
             </div>
             
@@ -107,14 +107,14 @@ const About = () => {
         {/* grid 4 */}
         <div className="grid-special-color grid-4">
             <div className="flex flex-col items-center justify-center gap-4 size-full">
-                <p className="text-center headText">Download My Resume</p>
+                <p className="text-center headtext">Download My Resume</p>
                 <DownloadResumeButton/>
             </div>
         </div>
         {/* grid 5 */}
         <div className="grid-default-color grid-5">
             <div className="z-10 w-[50%]">
-                <p className="headText">Find me here and say Hi</p>
+                <p className="headtext">Find me here and say Hi</p>
                 <SocialButtonsGroup className="justify-center mt-20" linkedinUrl="https://www.linkedin.com/in/younghoon/"
                 githubUrl="https://github.com/Oldhoon"
                 instagramUrl="https://www.instagram.com/oldhoon0207/"
