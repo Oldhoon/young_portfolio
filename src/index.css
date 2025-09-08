@@ -76,6 +76,9 @@ body {
 .headtext {
   @apply mt-2 mb-2 text-xl;
 }
+.head-text {
+    @apply sm:text-4xl text-3xl font-semibold;
+  }
 
 .subtext {
   @apply text-neutral-400 text-sm md:text-base text-pretty;
@@ -138,3 +141,11 @@ body {
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
+
+.field-btn {
+    @apply bg-gray-800 shadow-gray-950 px-5 py-2 min-h-12 rounded-lg shadow-2xl flex justify-center items-center text-lg text-white gap-3;
+  }
+
+  .field-btn_arrow {
+    @apply w-2.5 h-2.5 object-contain invert brightness-0;
+  }
