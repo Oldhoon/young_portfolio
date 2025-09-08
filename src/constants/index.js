@@ -6,7 +6,7 @@ export const myProjects = [
         'Developed during a hackathon using HTML, CSS, JavaScript, and MongoDB, Moodify demonstrates a full-stack workflow with sentiment analysis and cloud deployment.',
       href: 'https://github.com/Oldhoon/Moodify-NWHacks',
       texture: '/textures/project/moodify.mp4',
-      logo: '/assets/project-moodify.png',
+      logo: '/assets/projects/moodify.png',
       logoStyle: {
         backgroundColor: '#1E293B',
         border: '0.2px solid #334155',
@@ -27,7 +27,7 @@ export const myProjects = [
         'Developed as an academic project to practice OOP principles, data persistence, modular design, and unit testing with JUnit. Focused on creating a scalable and maintainable codebase.',
       href: 'https://github.com/Oldhoon/Application-tracker',
       texture: '/textures/project/tracker.mp4',
-      logo: '/assets/project-tracker.png',
+      logo: '/assets/projects/javatracker.png',
       logoStyle: {
         backgroundColor: '#2C2C32',
         border: '0.2px solid #3F3F46',
@@ -35,11 +35,10 @@ export const myProjects = [
       },
       spotlight: '/assets/spotlights/spotlight4.png',
       tags: [
-        { id: 1, name: 'Java', path: '/assets/projectLogos/java.png' },
-        { id: 2, name: 'Swing', path: '/assets/projectLogos/swing.png' },
-        { id: 3, name: 'JSON', path: '/assets/projectLogos/json.png' },
+        { id: 1, name: 'Java', path: '/assets/logos/Java.svg' },
+        { id: 3, name: 'JSON', path: '/assets/projectLogos/JSON.png' },
         { id: 4, name: 'JUnit', path: '/assets/projectLogos/junit.png' },
-        { id: 5, name: 'Git', path: '/assets/projectLogos/git.png' },
+        { id: 5, name: 'Git', path: '/assets/logos/git.svg' },
       ],
     },
     {
@@ -49,7 +48,7 @@ export const myProjects = [
         'Built with TypeScript, Node.js, Google Maps Platform, Vercel, and Supabase, Pathable showcases the integration of real-time mapping and accessibility-focused design in a modern web app.',
       href: 'https://github.com/Oldhoon/Pathable-GDSC-AIHacks',
       texture: '/textures/project/pathable.mp4',
-      logo: '/assets/project-pathable.png',
+      logo: '/assets/projects/pathable.png',
       logoStyle: {
         backgroundColor: '#1E293B',
         border: '0.2px solid #334155',
@@ -58,10 +57,10 @@ export const myProjects = [
       spotlight: '/assets/spotlights/spotlight3.png',
       tags: [
         { id: 1, name: 'TypeScript', path: '/assets/projectLogos/typescript.png' },
-        { id: 2, name: 'Node.js', path: '/assets/projectLogos/nodejs.png' },
-        { id: 3, name: 'Google Maps', path: '/assets/projectLogos/googlemaps.png' },
-        { id: 4, name: 'Vercel', path: '/assets/projectLogos/vercel.png' },
-        { id: 5, name: 'Supabase', path: '/assets/projectLogos/supabase.png' },
+        { id: 2, name: 'Node.js', path: '/assets/logos/nodejs.svg' },
+        { id: 3, name: 'Google Maps', path: '/assets/projectLogos/Google.png' },
+        { id: 4, name: 'Vercel', path: '/assets/projectLogos/Vercel.png' },
+        { id: 5, name: 'Supabase', path: '/assets/projectLogos/supabase.jpg' },
       ],
     },
     {
@@ -79,11 +78,11 @@ export const myProjects = [
       },
       spotlight: '/assets/spotlights/spotlight2.png',
       tags: [
-        { id: 1, name: 'Java', path: '/assets/logos/java.svg' },
-        { id: 2, name: 'Spring Boot', path: '/assets/projectLogos/springboot.png' },
+        { id: 1, name: 'Java', path: '/assets/logos/Java.svg' },
+        { id: 2, name: 'Spring Boot', path: '/assets/projectLogos/Spring.png' },
         { id: 3, name: 'MongoDB', path: '/assets/projectLogos/mongodb.png' },
         { id: 4, name: 'Thymeleaf', path: '/assets/projectLogos/thymeleaf.png' },
-        { id: 5, name: 'Postman', path: '/assets/projectLogos/postman.png' },
+        { id: 5, name: 'Postman', path: '/assets/projectLogos/Postman.png' },
       ],
     },
     {
@@ -101,12 +100,11 @@ export const myProjects = [
       },
       spotlight: '/assets/spotlights/spotlight1.png',
       tags: [
-        { id: 1, name: 'Java', path: '/assets/logos/java.svg' },
-        { id: 2, name: 'Spring Boot', path: '/assets/projectLogos/springboot.png' },
-        { id: 3, name: 'AWS', path: '/assets/projectLogos/aws.png' },
-        { id: 4, name: 'Gemini API', path: '/assets/projectLogos/gemini.png' },
-        { id: 5, name: 'Chrome Extension', path: '/assets/projectLogos/chrome.png' },
-        { id: 6, name: 'JSON', path: '/assets/projectLogos/json.png' },
+        { id: 1, name: 'Java', path: '/assets/logos/Java.svg' },
+        { id: 2, name: 'Spring Boot', path: '/assets/projectLogos/Spring.png' },
+        { id: 3, name: 'AWS', path: '/assets/logos/aws.svg' },
+        { id: 4, name: 'Gemini API', path: '/assets/projectLogos/Google.png' },
+        { id: 6, name: 'JSON', path: '/assets/projectLogos/JSON.png' },
       ],
     },
     {
@@ -125,7 +123,6 @@ export const myProjects = [
       spotlight: '/assets/spotlights/spotlight5.png',
       tags: [
         { id: 1, name: 'Python', path: '/assets/logos/python.svg' },
-        { id: 2, name: 'Turtle', path: '/assets/projectLogos/turtle.png' },
       ],
     },
     {
@@ -144,7 +141,6 @@ export const myProjects = [
       spotlight: '/assets/spotlights/spotlight4.png',
       tags: [
         { id: 1, name: 'Python', path: '/assets/logos/python.svg' },
-        { id: 2, name: 'Turtle', path: '/assets/projectLogos/turtle.png' },
       ],
     },
     {
@@ -163,10 +159,7 @@ export const myProjects = [
       spotlight: '/assets/spotlights/spotlight3.png',
       tags: [
         { id: 1, name: 'Python', path: '/assets/logos/python.svg' },
-        { id: 2, name: 'pandas', path: '/assets/projectLogos/pandas.png' },
-        { id: 3, name: 'OpenPyXL', path: '/assets/projectLogos/openpyxl.png' },
-        { id: 4, name: 'CLI', path: '/assets/projectLogos/terminal.png' },
-        { id: 5, name: 'Excel', path: '/assets/projectLogos/excel.png' },
+        { id: 2, name: 'pandas', path: '/assets/projectLogos/Pandas.png' },
       ],
     },
     {
@@ -185,8 +178,8 @@ export const myProjects = [
       spotlight: '/assets/spotlights/spotlight2.png',
       tags: [
         { id: 1, name: 'Python', path: '/assets/logos/python.svg' },
-        { id: 2, name: 'Streamlit', path: '/assets/projectLogos/streamlit.png' },
-        { id: 3, name: 'pandas', path: '/assets/projectLogos/pandas.png' },
+        { id: 2, name: 'Streamlit', path: '/assets/projectLogos/Streamlit.png' },
+        { id: 3, name: 'pandas', path: '/assets/projectLogos/Pandas.png' },
       ],
     },
   ];
