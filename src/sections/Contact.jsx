@@ -1,14 +1,24 @@
 import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
+import Alert from "../components/Alert";
 
 const Contact = () => {
     const formRef = useRef();
     const [loading, setLoading] = useState(false);
+    const [showAlert, setshowAlert] = useState(false);
+    const [alertType, setAlertType] = useState("success");
+    const [alertMessage, setalertMessage] = useState("");
     const [form, setForm] = useState({
         name: '',
         email: '',
         message: '',
     });
+
+    const showAlertBox = (type, message) => {
+        setAlertType(type);
+        setalertMessage(message);
+        setshowAlert(true);
+    }
 
     const handleChange = ({target: {name, value}}) => {
         setForm({...form, [name]: value});
@@ -26,9 +36,13 @@ const Contact = () => {
                 from_email:form.email,
                 email: 'kimyoh123@gmail.com',
                 message: form.message
-            }, 'mjNNDLfog5himy5HE')
+            },'mjNNDLfog5himy5HE')
             setLoading(false);
-            alert('Thanks for reaching out! I’ll grab a coffee and get back to you shortly ☕');
+            showAlertBox("success", "Thanks for reaching out! I’ll grab a coffee and get back to you shortly ☕");
+            setTimeout(() => {
+                setshowAlert(false);
+            }, 5000)
+
             setForm({
                 name: '',
                 email: '',
@@ -37,25 +51,26 @@ const Contact = () => {
         } catch (error) {
             setLoading(false);
             console.log(error);
-            alert('Sorry! The email didn’t go through. Give it another shot.');
+            showAlertBox("danger", "Sorry! The email didn’t go through. Give it another shot.");
+            setTimeout(() => {
+                setshowAlert(false);
+            }, 5000)
          }
          
 
     }
 
   return (
-    <section className="c-space section-spacing">
-        <h3 className="text-heading">Contact Me</h3>
-        <div className="relative min-h-screen flex items-center justify-center flex-col">
-            <img src="/assets/terminal.png" alt="terminal background" 
-            className="hidden md:block absolute inset-0 min-h-screen"/>
-            <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-12">
-                <h3 className="head-text">Let's Talk</h3>
-                <p className="text-lg text-gray-400 mt-3">
+    <section className="c-space relative flex items-center section-spacing">
+        {showAlert && <Alert type={alertType} text={alertMessage}/>} 
+        <div className="max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary flex items-center justify-center flex-col">
+            <div className="flex flex-col items-start w-full gap-5 mb-10">
+                <h2 className="text-heading">Let's Talk</h2>
+                <p className="font-normal text-neutral-400">
                 I’m always open to discussing new opportunities, collaborations, and exciting projects — feel free to reach out!
                 </p>
-
-                <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+                <form ref={formRef} onSubmit={handleSubmit} className="w-full">
+                    <div className="mb-5">
                     <label className="space-y-3">
                         <span className="field-label">Full Name</span>
                         <input type="text"
@@ -83,11 +98,11 @@ const Contact = () => {
                         className="field-input"
                         placeholder="Tell me your deepest debugging struggles..." />
                     </label>
-                    <button className='field-btn cursor-pointer' type="submit" disabled={loading}>
-                        {loading ? 'Sending...' : 'Send Message'}
-                        <img src="/assets/arrow-up.svg" alt="arrow up" className="" />
+                    </div>
+                    <button className='w-full px-1 py-3 text-lg text-center rounded-md bg-radial from-lavender to-royal hover-animation cursor-pointer' type="submit" disabled={loading}>
+                        {loading ? 'Sending...' : 'Send'}
                     </button>
-
+                    
                 </form>
             </div>
         </div>
