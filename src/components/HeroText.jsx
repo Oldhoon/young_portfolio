@@ -36,7 +36,7 @@ const HeroText = () => {
           <motion.div>
             <FlipWords words={words} className="font-black text-white text-4xl" />
           </motion.div>
-          <motion.p className="text-3xl font-medium text-neutral-300">applications</motion.p>
+          <motion.p className="text-3xl font-medium text-neutral-300">software</motion.p>
         </div>
     </div>
   );
