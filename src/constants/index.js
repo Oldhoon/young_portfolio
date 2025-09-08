@@ -5,7 +5,7 @@ export const myProjects = [
       subdesc:
         'Developed during a hackathon using HTML, CSS, JavaScript, and MongoDB, Moodify demonstrates a full-stack workflow with sentiment analysis and cloud deployment.',
       href: 'https://github.com/Oldhoon/Moodify-NWHacks',
-      texture: '/textures/project/moodify.mp4',
+      texture: '/assets/projectDemo/moodify.png',
       logo: '/assets/projects/moodify.png',
       logoStyle: {
         backgroundColor: '#1E293B',
@@ -26,7 +26,7 @@ export const myProjects = [
       subdesc:
         'Developed as an academic project to practice OOP principles, data persistence, modular design, and unit testing with JUnit. Focused on creating a scalable and maintainable codebase.',
       href: 'https://github.com/Oldhoon/Application-tracker',
-      texture: '/textures/project/tracker.mp4',
+      texture: '/assets/projectDemo/applicationtracker.png',
       logo: '/assets/projects/javatracker.png',
       logoStyle: {
         backgroundColor: '#2C2C32',
@@ -47,7 +47,7 @@ export const myProjects = [
       subdesc:
         'Built with TypeScript, Node.js, Google Maps Platform, Vercel, and Supabase, Pathable showcases the integration of real-time mapping and accessibility-focused design in a modern web app.',
       href: 'https://github.com/Oldhoon/Pathable-GDSC-AIHacks',
-      texture: '/textures/project/pathable.mp4',
+      texture: '/assets/projectDemo/pathable.png',
       logo: '/assets/projects/pathable.png',
       logoStyle: {
         backgroundColor: '#1E293B',
@@ -69,8 +69,8 @@ export const myProjects = [
       subdesc:
         'Built with Java, Spring Boot, and MongoDB, with Thymeleaf for minimal frontend rendering. Endpoints were rigorously tested and validated using Postman to ensure robust CRUD operations and data integrity.',
       href: 'https://github.com/Oldhoon/movie_reviews_API',
-      texture: '/textures/project/moviereviews.mp4',
-      logo: '/assets/project-moviereviews.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/movieapi.png',
       logoStyle: {
         backgroundColor: '#292524',
         border: '0.2px solid #3F3F46',
@@ -91,8 +91,8 @@ export const myProjects = [
       subdesc:
         'Implemented in Java with Spring Boot, featuring asynchronous API calls and JSON parsing. The backend was deployed on AWS EC2 with an Nginx reverse proxy for secure HTTPS communication, demonstrating cloud deployment and AI integration.',
       href: 'https://github.com/Oldhoon/Mailbot',
-      texture: '/textures/project/mailbot.mp4',
-      logo: '/assets/project-mailbot.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/mailbot.png',
       logoStyle: {
         backgroundColor: '#0C0A09',
         border: '0.2px solid #1C1917',
@@ -113,8 +113,8 @@ export const myProjects = [
       subdesc:
         'Implemented using Python and the Turtle graphics library, this project focuses on object-oriented design, event handling, and basic game loop mechanics.',
       href: 'https://github.com/Oldhoon/Crossy-Road',
-      texture: '/textures/project/crossyroad.mp4',
-      logo: '/assets/project-crossyroad.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/crossyroad.png',
       logoStyle: {
         backgroundColor: '#1E1E1E',
         border: '0.2px solid #3F3F46',
@@ -131,8 +131,8 @@ export const myProjects = [
       subdesc:
         'Developed using Python and the Turtle graphics library, this project highlights OOP design, modular code structure, and interactive gameplay mechanics.',
       href: 'https://github.com/Oldhoon/Snake-Game',
-      texture: '/textures/project/snakegame.mp4',
-      logo: '/assets/project-snakegame.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/snake.png',
       logoStyle: {
         backgroundColor: '#111827',
         border: '0.2px solid #1F2937',
@@ -149,8 +149,8 @@ export const myProjects = [
       subdesc:
         'Built with Python, pandas, and OpenPyXL. Uses argparse for a clean CLI and writes a formatted worksheet with an optional chart for wavelength versus intensity.',
       href: 'https://github.com/Oldhoon/DX-Spectroscopy-Converter',
-      texture: '/textures/project/dxconverter.mp4',
-      logo: '/assets/project-dxconverter.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/dxconvert.png',
       logoStyle: {
         backgroundColor: '#0B1020',
         border: '0.2px solid #111827',
@@ -168,8 +168,8 @@ export const myProjects = [
       subdesc:
         'Developed with Python, Streamlit, and pandas, this project demonstrates data processing, interactive visualization, and extensibility through charts and custom categories.',
       href: 'https://github.com/Oldhoon/python-financeapp',
-      texture: '/textures/project/financedashboard.mp4',
-      logo: '/assets/project-financedashboard.png',
+      texture: '/assets/projectDemo/defaultscreen.jpg',
+      logo: '/assets/projects/finanace.png',
       logoStyle: {
         backgroundColor: '#0F172A',
         border: '0.2px solid #1E293B',
