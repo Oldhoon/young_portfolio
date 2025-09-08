@@ -184,3 +184,34 @@ export const myProjects = [
     },
   ];
   
+  export const experiences = [
+    {
+      title: "Research Assistant",
+      job: "University of British Columbia, Vancouver",
+      date: "Apr 2024 – Apr 2025",
+      contents: [
+        "Worked independently on project studying photosynthetic proteins from synthetic operons in a model organism.",
+        "Maintained detailed laboratory records and presented key findings to peers and faculty during monthly meetings.",
+        "Developed Python scripts to automate protein absorbance spectra analysis, reducing manual errors."
+      ],
+    },
+    {
+      title: "Medic Care Companion",
+      job: "Seasons Wesbrook Village Retirement Community, Vancouver",
+      date: "Jan 2024 – Apr 2025",
+      contents: [
+        "Provided companionship and emotional support to seniors affected by chronic diseases, fostering social engagement.",
+        "Assisted residents with technology to help them connect with family, streamlining digital device use and setup."
+      ],
+    },
+    {
+      title: "Military Engineer",
+      job: "Republic of Korea Army, Yeoncheon, Korea",
+      date: "Oct 2020 – Apr 2022",
+      contents: [
+        "Led safety training sessions aimed at instilling confidence and reducing anxiety in new trainees, improving safety awareness in high-risk mine sweeping operations.",
+        "As squadron leader, resolved interpersonal conflicts and fostered teamwork under high-pressure environments.",
+        "Managed logistics, resource distribution, and mission coordination for 8+ personnel across deployments."
+      ],
+    }
+  ];
